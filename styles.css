@@ -1,0 +1,116 @@
+/* Hope Johns */
+
+html
+{
+  background-color: pink;
+  font-family: Georgia, serif;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+h1
+{
+  text-align: center;
+  font-size: 75px;
+  opacity: 100%;
+  color: navy;
+}
+
+h2
+{
+  text-align: center;
+}
+
+img
+{
+  max-width: 350px;
+  max-height: 300px;
+}
+
+nav ul
+{
+  display: flex;
+  background-color: magenta;
+  background-size: contain;
+  list-style: none;
+  font-size: 30px;
+}
+
+nav ul li
+{
+  padding-right: 50px;
+}
+
+p
+{
+  text-align: center;
+}
+
+.col1
+{
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.banner
+{
+  background-image: url(bannerglitter.jpg);
+  background-size: contain;
+  min-height: 100px;
+  background-repeat: repeat-x;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar
+{
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: contain;
+  justify-content: center;
+}
+
+.rows
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.columns
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+.form
+{
+  padding-right: 150px;
+}
+
+@media screen and (max-width: 568px)
+{
+  .col1
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  nav ul
+  {
+    font-size: 20px;
+  }
+  .columns
+  {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form
+  {
+    padding: 0px;
+  }
+
+}
