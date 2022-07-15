@@ -31,8 +31,6 @@ img
 nav ul
 {
   display: flex;
-  background-color: magenta;
-  background-size: contain;
   list-style: none;
   font-size: 30px;
 }
@@ -87,9 +85,20 @@ p
   padding: 30px;
 }
 
+.col1
+{
+  padding: 15px;
+}
+
 .form
 {
   padding-right: 150px;
+}
+
+.testimonial
+{
+  font-style: italic;
+  font-variant: small-caps;
 }
 
 @media screen and (max-width: 568px)
@@ -98,6 +107,7 @@ p
   {
     display: flex;
     flex-wrap: wrap;
+    padding: 30px;
   }
   nav ul
   {
